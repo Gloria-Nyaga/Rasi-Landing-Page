@@ -1,6 +1,8 @@
 body{
     margin-left: 10%;
     margin-right: 10%;
+    background-color: green;
+    align-items: center;
 
 }
 
@@ -37,11 +39,11 @@ body{
     align-items: center;
 }
 
-.button{
+button{
     width: 250px;
     padding: 20px;
     color: white;
-    background-color: rgb(193, 188, 188);
+    background-color: green;
    border-radius: 10%;
 }
 
@@ -169,3 +171,234 @@ body{
 #reach{
     text-align: center;
 }
+
+#map{
+    background-image: url("images/map.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.phone{
+    padding: 2px 16px;
+    background-color: white;
+    margin-right:70% ;
+    margin-left: 10%;
+    border-radius: 10%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    align-items: center;
+}
+
+#footer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    background-color: rgb(24, 21, 21);
+    margin-bottom: 3%;
+    color: beige;
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(24, 21, 21);
+    color: beige;
+    margin-bottom: 3%;
+    padding-bottom: 20px;
+
+}
+
+#bottoml{
+    background-color: rgb(24, 21, 21);
+}
+
+.footerimage{
+    padding-left: 5%;
+}
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:1000px){
+    #Header{
+
+        flex-direction: column;
+    }
+
+    .Navbar{
+    flex-direction: column;
+     }
+
+     #Timeless{
+        flex-direction: column;
+        width: 20%;
+    }
+    .bed{
+        width: 20px;
+    }
+    #premium{
+        flex-direction: column;
+        gap: 10%;
+        background-color: rgb(230, 234, 233);
+        margin-top: 5%;
+        padding: 30px;
+
+    }
+    
+    #Screen{
+        flex-direction: column;
+        gap: 2%;
+        margin-top: 5%;
+        
+    }
+    #Industry{
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    #High{
+        flex-direction: column;
+        gap: 3%; 
+        align-items: center;
+    }
+
+    #immages{
+        flex-direction: column;
+        gap:3%;
+        border-radius: 5%;
+        margin-top: 5%;
+        align-items: center;  
+    }
+
+    .lesso{
+        margin-top: 3%;
+        border-radius: 2%;
+        height: 200px;
+
+        
+    }
+
+    #footer{
+        align-items: center;
+        flex-direction: column;
+        gap:3%;
+        background-color: rgb(24, 21, 21);
+        margin-bottom: 3%;
+        color: beige;
+    }
+
+    .bed{
+        margin-top: 3%;
+        border-radius: 2%;
+        width: 300px;
+
+    }
+    .image{
+        align-items: center;
+    }
+
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+
+        align-items: center;
+    
+    }
+}    
+
+
+
+@media only screen and (min-width:200px) and (max-width:400px){
+    #Header{
+
+        flex-direction: column;
+    }
+
+    .Navbar{
+    flex-direction: column;
+     }
+
+     #Timeless{
+        flex-direction: column;
+        width: 20%;
+    }
+    .bed{
+        width: 20px;
+    }
+    #premium{
+        flex-direction: column;
+        gap: 10%;
+        background-color: rgb(230, 234, 233);
+        margin-top: 5%;
+        padding: 30px;
+
+    }
+    
+    #Screen{
+        flex-direction: column;
+        gap: 2%;
+        margin-top: 5%;
+        
+    }
+    #Industry{
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    #High{
+        flex-direction: column;
+        gap: 3%; 
+        align-items: center;
+    }
+
+    #immages{
+        flex-direction: column;
+        gap:3%;
+        border-radius: 5%;
+        margin-top: 5%;
+        align-items: center;  
+    }
+
+    .lesso{
+        margin-top: 3%;
+        border-radius: 2%;
+        height: 200px;
+
+        
+    }
+
+    #footer{
+        align-items: center;
+        flex-direction: column;
+        gap:3%;
+        background-color: rgb(24, 21, 21);
+        margin-bottom: 3%;
+        color: beige;
+    }
+
+    .bed{
+        margin-top: 3%;
+        border-radius: 2%;
+        width: 300px;
+
+    }
+    .image{
+        align-items: center;
+    }
+
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+
+        align-items: center;
+    
+    }
+}    
+
