@@ -1,0 +1,171 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#offers{
+    text-align: center;
+    background-color: rgb(128, 197, 128);
+    color: white;
+    padding: 5px;
+}
+
+#Header{
+    background-image: url('images/introImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 500px; 
+    background-position: center
+
+
+}
+.Rasi{
+
+    top:5px;
+    text-align: center;
+    left:20%;
+    margin-left: 5%;
+  
+}
+
+.Navbar{
+    display: flex;
+    gap:10%;
+    align-items: center;
+}
+
+.button{
+    width: 250px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(193, 188, 188);
+   border-radius: 10%;
+}
+
+.india{
+    text-align: center;
+    border-color: black;
+    margin-top: 5%;
+}
+
+#Timeless{
+    display: flex;
+    gap: 10%;
+}
+
+.green{
+    color: rgb(60, 134, 60);
+}
+
+.button{
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    
+}
+
+.green{
+    width: 250px;
+    padding: 20px;
+    color: white;
+    background-color: green;
+   border-radius: 10%;
+    
+}
+
+.white{
+    color: black;
+}
+
+#premium{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    background-color: rgb(230, 234, 233);
+    margin-top: 5%;
+    padding: 30px;
+    
+
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#array{
+    text-align: center;
+}
+
+#Screen{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-top: 5%;
+    
+}
+
+#client{
+    text-align: center;
+}
+
+.text{
+    color: rgb(74, 73, 73);
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+}
+
+#Industry{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.star{
+    color: rgb(99, 150, 99);
+
+}
+#High{
+    display: flex;
+    flex-direction: row;
+    gap: 3%; 
+    align-items: center;
+}
+.image{
+    border-radius: 5%;
+    margin-top: 2%;
+}
+#logo{
+    align-items: center;
+    gap: 10%;
+}
+
+#showcasing{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#immages{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    border-radius: 5%;
+    margin-top: 5%;
+    align-items: center;
+    
+}
+
+.lesso{
+    margin-top: 3%;
+    border-radius: 2%;
+    height: 20%;
+}
+
+#reach{
+    text-align: center;
+}
